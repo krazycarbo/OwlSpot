@@ -1,15 +1,15 @@
 <DataModel xmlns:db="http://www.webratio.com/2006/WebML/Database" xmlns:gr="http://www.webratio.com/2006/WebML/Graph">
-  <Entity id="User" name="User" duration="persistent" gr:x="20" gr:y="158" gr:hideAttributes="false" attributeOrder="userOID userName password email" db:database="db3" db:table="user_2">
+  <Entity id="User" name="User" duration="persistent" gr:x="20" gr:y="20" gr:hideAttributes="false" attributeOrder="userOID userName password email" db:database="db3" db:table="user_2">
     <Attribute name="oid" id="userOID" type="integer" key="true" db:column="oid"/>
     <Attribute name="userName" id="userName" type="string" db:column="username"/>
     <Attribute name="password" id="password" type="password" db:column="password"/>
     <Attribute name="email" id="email" type="string" db:column="email"/>
   </Entity>
-  <Entity id="Group" name="Group" duration="persistent" gr:x="250" gr:y="178" gr:hideAttributes="false" attributeOrder="groupOID groupName" db:database="db3" db:table="group_2">
+  <Entity id="Group" name="Group" duration="persistent" gr:x="250" gr:y="40" gr:hideAttributes="false" attributeOrder="groupOID groupName" db:database="db3" db:table="group_2">
     <Attribute name="oid" id="groupOID" type="integer" key="true" db:column="oid"/>
     <Attribute name="groupName" id="groupName" type="string" db:column="groupname"/>
   </Entity>
-  <Entity id="Module" name="Module" duration="persistent" gr:x="472" gr:y="167" gr:hideAttributes="false" attributeOrder="moduleOID moduleID moduleName" db:database="db3" db:table="module_2">
+  <Entity id="Module" name="Module" duration="persistent" gr:x="475" gr:y="30" gr:hideAttributes="false" attributeOrder="moduleOID moduleID moduleName" db:database="db3" db:table="module_2">
     <Attribute name="oid" id="moduleOID" type="integer" key="true" db:column="oid"/>
     <Attribute name="moduleID" id="moduleID" type="string" db:column="moduleid"/>
     <Attribute name="moduleName" id="moduleName" type="string" db:column="modulename"/>
@@ -47,4 +47,14 @@
     </RelationshipRole2>
   </Relationship>
   <db:Database id="db3" name="freeapp20" type="MySQL" url="jdbc:mysql://52.212.31.81:3306/freeapp20" username="freeapp20" cryptedPassword="true" password="NTgzMzg0RjU="/>
+  <Entity gr:x="20" gr:y="150" id="ent1" name="Activity" duration="persistent" attributeOrder="ent1#att1 ent1#att2 ent1#att3 ent1#att4 ent1#att5 ent1#att6 ent1#att7 ent1#att8">
+    <Attribute id="ent1#att1" key="true" name="oid" type="integer"/>
+    <Attribute id="ent1#att2" name="location" type="string" key="false"/>
+    <Attribute id="ent1#att8" name="endDate" type="date"/>
+    <Attribute id="ent1#att7" name="endTime" type="time"/>
+    <Attribute id="ent1#att6" name="startDate" type="date"/>
+    <Attribute id="ent1#att5" name="startTime" type="time"/>
+    <Attribute id="ent1#att4" name="description" type="text" contentType="text/html"/>
+    <Attribute id="ent1#att3" name="photo" type="blob" contentType="image"/>
+  </Entity>
 </DataModel>

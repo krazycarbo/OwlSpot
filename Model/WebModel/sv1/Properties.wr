@@ -3,5 +3,8 @@
     <CreateUnit gr:x="635" gr:y="240" id="sv1#cru1" name="Add User" linkOrder="sv1#cru1#ln2">
       <Link id="sv1#cru1#ln2" name="Complete" to="sv1#area1#page3" automaticCoupling="true" type="transport" validate="true"/>
     </CreateUnit>
+    <CreateUnit gr:x="-40" gr:y="225" id="sv1#cru2" name="Activity Storage" entity="ent1">
+      <Link id="sv1#cru2#ln6" name="Flow6" to="sv1#area1#page3#inu2" type="transport" validate="true" gr:bendpoints="175,42,-195,47"/>
+    </CreateUnit>
   </OperationUnits>
 </SiteView>
