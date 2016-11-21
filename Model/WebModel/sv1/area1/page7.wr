@@ -1,14 +1,72 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area1#page7" name="Post Activity" gr:x="10" gr:y="125" landmark="true">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area1#page7" name="Post Activity" gr:x="5" gr:y="170" landmark="true">
   <ContentUnits>
-    <MultiMessageUnit gr:x="0" gr:y="0" id="sv1#area1#page7#mssu1" name="Message1">
+    <MultiMessageUnit gr:x="0" gr:y="0" id="sv1#area1#page7#mssu1" name="Welcome">
       <Message xml:space="preserve">Post activity here</Message>
     </MultiMessageUnit>
+    <EntryUnit id="sv1#area1#page7#enu7" name="Activity" gr:x="0" gr:y="110" entity="ent1" linkOrder="sv1#area1#page7#enu7#ln5">
+      <Field id="sv1#area1#page7#enu7#fld18" name="location" type="string" modifiable="true" attribute="ent1#att2"/>
+      <Field id="sv1#area1#page7#enu7#fld19" name="photo" type="blob" modifiable="true" contentType="image" attribute="ent1#att3"/>
+      <Field id="sv1#area1#page7#enu7#fld20" name="description" type="text" modifiable="true" contentType="text/html" attribute="ent1#att4"/>
+      <Field id="sv1#area1#page7#enu7#fld21" name="startTime" type="time" modifiable="true" attribute="ent1#att5"/>
+      <Field id="sv1#area1#page7#enu7#fld22" name="startDate" type="date" modifiable="true" attribute="ent1#att6"/>
+      <Field id="sv1#area1#page7#enu7#fld23" name="endTime" type="time" modifiable="true" attribute="ent1#att7"/>
+      <Field id="sv1#area1#page7#enu7#fld24" name="endDate" type="date" modifiable="true" attribute="ent1#att8"/>
+      <Link id="sv1#area1#page7#enu7#ln5" name="Activity" to="sv1#cru2" type="normal" validate="true" gr:bendpoints="-150,-17,30,63">
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par1" name="description_PASSING" source="sv1#area1#page7#enu7#fld20" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par2" name="endDate_PASSING" source="sv1#area1#page7#enu7#fld24" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par3" name="endTime_PASSING" source="sv1#area1#page7#enu7#fld23" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par4" name="Key [oid]_PASSING" source="key.ent1#att1" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par5" name="location_PASSING" source="sv1#area1#page7#enu7#fld18" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par6" name="photo_PASSING" source="sv1#area1#page7#enu7#fld19" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par7" name="startDate_PASSING" source="sv1#area1#page7#enu7#fld22" passing="true"/>
+        <LinkParameter id="sv1#area1#page7#enu7#ln5#par8" name="startTime_PASSING" source="sv1#area1#page7#enu7#fld21" passing="true"/>
+      </Link>
+    </EntryUnit>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
       <layout:Cell colspan="12">
         <layout:Unit unitId="sv1#area1#page7#mssu1"/>
       </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page7#enu7">
+          <layout:Field field="sv1#area1#page7#enu7#fld18"/>
+          <layout:Field field="sv1#area1#page7#enu7#fld19"/>
+          <layout:Field field="sv1#area1#page7#enu7#fld20"/>
+          <layout:Field field="sv1#area1#page7#enu7#fld21"/>
+          <layout:Field field="sv1#area1#page7#enu7#fld22"/>
+          <layout:Field field="sv1#area1#page7#enu7#fld23"/>
+          <layout:Field field="sv1#area1#page7#enu7#fld24"/>
+          <layout:Link link="sv1#area1#page7#enu7#ln5"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
       <layout:Cell/>
       <layout:Cell/>
       <layout:Cell/>
