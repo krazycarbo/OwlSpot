@@ -1,3 +1,7 @@
-<SiteView id="sv1" name="MainPage" landmarks="sv1#area1" homePage="sv1#area1#page1">
-  <OperationUnits/>
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1" name="MainPage" landmarks="sv1#area2 sv1#area3 sv1#area4 sv1#area5 sv1#area7 sv1#miu4" layout:style="BootstrapStyle">
+  <OperationUnits>
+    <ModuleInstanceUnit id="sv1#miu4" landmark="true" gr:x="485" gr:y="455" action="true" moduleId="mov1#opm2">
+      <OKLink id="sv1#miu4#oln7" name="OKFlow7" to="sv1#area7#page17" automaticCoupling="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
 </SiteView>

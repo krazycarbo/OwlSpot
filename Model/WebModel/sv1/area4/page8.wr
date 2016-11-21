@@ -1,0 +1,52 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area4#page8" name="User Activity">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#area4#page8#enu4" name="What's the Activity?" fieldOrder="sv1#area4#page8#enu4#fld15 sv1#area4#page8#enu4#fld16 sv1#area4#page8#enu4#fld17 sv1#area4#page8#enu4#fld18 sv1#area4#page8#enu4#fld19 sv1#area4#page8#enu4#fld20 sv1#area4#page8#enu4#fld21 sv1#area4#page8#enu4#fld22" linkOrder="sv1#area4#page8#enu4#ln8">
+      <Field id="sv1#area4#page8#enu4#fld22" name="Image" type="blob" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld21" name="Description" type="string" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld20" name="Activity Type" type="string" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld19" name="Date" type="date" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld18" name="Z-Number" type="string" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld17" name="Email" type="string" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld16" name="Last Name" type="string" modifiable="true"/>
+      <Field id="sv1#area4#page8#enu4#fld15" name="First Name" type="string" modifiable="true"/>
+      <Link id="sv1#area4#page8#enu4#ln8" name="Submit" to="sv1#area4#cru3" type="normal" validate="true">
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par5" name="Activity Type_Activity Type" source="sv1#area4#page8#enu4#fld20" target="sv1#area4#cru3.ent3#att21"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par14" name="Date_Date" source="sv1#area4#page8#enu4#fld19" target="sv1#area4#cru3.ent3#att20"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par15" name="Description_Description" source="sv1#area4#page8#enu4#fld21" target="sv1#area4#cru3.ent3#att22"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par18" name="Email_Email" source="sv1#area4#page8#enu4#fld17" target="sv1#area4#cru3.ent3#att18"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par19" name="First Name_First Name" source="sv1#area4#page8#enu4#fld15" target="sv1#area4#cru3.ent3#att16"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par20" name="Image_Image" source="sv1#area4#page8#enu4#fld22" target="sv1#area4#cru3.ent3#att23"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par21" name="Last Name_Last Name" source="sv1#area4#page8#enu4#fld16" target="sv1#area4#cru3.ent3#att17"/>
+        <LinkParameter id="sv1#area4#page8#enu4#ln8#par22" name="Z-Number_Z-Number" source="sv1#area4#page8#enu4#fld18" target="sv1#area4#cru3.ent3#att19"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="9">
+        <layout:Unit unitId="sv1#area4#page8#enu4">
+          <layout:Field field="sv1#area4#page8#enu4#fld15"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld16"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld17"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld18"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld19"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld20"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld21"/>
+          <layout:Field field="sv1#area4#page8#enu4#fld22"/>
+          <layout:Link link="sv1#area4#page8#enu4#ln8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell colspan="3"/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

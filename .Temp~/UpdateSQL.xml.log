@@ -1,0 +1,26 @@
+[20 Nov 2016 17:49:11] DEBUG Executing SQL script
+[20 Nov 2016 17:49:11] INFO ================================================================================
+[20 Nov 2016 17:49:11] INFO onError= 'stop'
+[20 Nov 2016 17:49:11] INFO autoCommit= 'false'
+[20 Nov 2016 17:49:11] INFO username= 'freeapp57'
+[20 Nov 2016 17:49:11] INFO outputPath= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\UpdateSQL.xml'
+[20 Nov 2016 17:49:11] INFO outputLogPath= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\UpdateSQL.xml.log'
+[20 Nov 2016 17:49:11] INFO encoding= ''
+[20 Nov 2016 17:49:11] INFO driverClass= 'com.mysql.jdbc.Driver'
+[20 Nov 2016 17:49:11] INFO sqlScript= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\UpdateSQL.sql'
+[20 Nov 2016 17:49:11] INFO eventSocketPort= '53168'
+[20 Nov 2016 17:49:11] INFO statementSeparator= ';'
+[20 Nov 2016 17:49:11] INFO derby.system.home= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[20 Nov 2016 17:49:11] INFO password= '2F36279B'
+[20 Nov 2016 17:49:11] INFO url= 'jdbc:mysql://52.19.51.26:3306/freeapp57'
+[20 Nov 2016 17:49:11] INFO ================================================================================
+[20 Nov 2016 17:49:11] INFO Connecting to the Database...
+[20 Nov 2016 17:49:13] INFO Database connection estabilished
+[20 Nov 2016 17:49:13] INFO transaction isolation: 4
+[20 Nov 2016 17:49:13] DEBUG ================================================================================
+[20 Nov 2016 17:49:13] DEBUG Executing SQL script file: C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\UpdateSQL.sql
+[20 Nov 2016 17:49:13] DEBUG Executing statement:  create table `activities` ( `oid`  integer  not null, `first_name`  varchar(255), `image`  varchar(255), `description`  varchar(255), `activity_type`  varchar(255), `date`  date, `z_number`  varchar(255), `email`  varchar(255), `last_name`  varchar(255), primary key (`oid`) )
+[20 Nov 2016 17:49:14] DEBUG ================================================================================
+[20 Nov 2016 17:49:14] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[20 Nov 2016 17:49:14] INFO Database connection closed
+[20 Nov 2016 17:49:14] DEBUG Total time: 2925 milliseconds

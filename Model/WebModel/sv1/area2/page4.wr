@@ -1,0 +1,80 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area2#page4" name="User Problem">
+  <ContentUnits>
+    <EntryUnit gr:x="40" gr:y="0" id="sv1#area2#page4#enu3" name="What's the Problem?" fieldOrder="sv1#area2#page4#enu3#fld7 sv1#area2#page4#enu3#fld8 sv1#area2#page4#enu3#fld9 sv1#area2#page4#enu3#fld10 sv1#area2#page4#enu3#fld12 sv1#area2#page4#enu3#fld11 sv1#area2#page4#enu3#fld13 sv1#area2#page4#enu3#fld14" linkOrder="sv1#area2#page4#enu3#ln10">
+      <Field id="sv1#area2#page4#enu3#fld14" name="Image" type="blob" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld13" name="Description" type="string" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld11" name="Incident Type" type="string" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld12" name="Date" type="date" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld10" name="Z-Number" type="string" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld9" name="Email" type="string" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld8" name="Last Name" type="string" modifiable="true"/>
+      <Field id="sv1#area2#page4#enu3#fld7" name="First Name" type="string" modifiable="true"/>
+      <Link id="sv1#area2#page4#enu3#ln10" name="Submit" to="sv1#area2#cru2" type="normal" validate="true">
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par6" name="Date_Date" source="sv1#area2#page4#enu3#fld12" target="sv1#area2#cru2.ent2#att11"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par7" name="Description_Description" source="sv1#area2#page4#enu3#fld13" target="sv1#area2#cru2.ent2#att13"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par8" name="Email_Email" source="sv1#area2#page4#enu3#fld9" target="sv1#area2#cru2.ent2#att9"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par9" name="First Name_First Name" source="sv1#area2#page4#enu3#fld7" target="sv1#area2#cru2.ent2#att7"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par10" name="Image_Image" source="sv1#area2#page4#enu3#fld14" target="sv1#area2#cru2.ent2#att14"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par11" name="Incident Type_Incident Type" source="sv1#area2#page4#enu3#fld11" target="sv1#area2#cru2.ent2#att12"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par12" name="Last Name_Last Name" source="sv1#area2#page4#enu3#fld8" target="sv1#area2#cru2.ent2#att8"/>
+        <LinkParameter id="sv1#area2#page4#enu3#ln10#par13" name="Z-Number_Z-Number" source="sv1#area2#page4#enu3#fld10" target="sv1#area2#cru2.ent2#att10"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="9">
+        <layout:Unit unitId="sv1#area2#page4#enu3">
+          <layout:Field field="sv1#area2#page4#enu3#fld7"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld8"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld9"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld10"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld12"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld11"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld13"/>
+          <layout:Field field="sv1#area2#page4#enu3#fld14"/>
+          <layout:Link link="sv1#area2#page4#enu3#ln10"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell colspan="3"/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,13 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area7" name="Home" defaultPage="sv1#area7#page17" landmarks="sv1#area7#page16 sv1#area7#page15" landmark="true" layout:style="BootstrapStyle" gr:x="0" gr:y="0">
+  <OperationUnits>
+    <CreateUnit id="sv1#area7#cru5" name="Register Account" gr:x="385" gr:y="135" entity="ent1">
+      <Link id="sv1#area7#cru5#ln19" name="Flow8" to="sv1#area7#page18#mssu11" type="transport" automaticCoupling="true" validate="true"/>
+    </CreateUnit>
+    <ModuleInstanceUnit id="sv1#area7#miu3" gr:x="215" gr:y="135" moduleId="mov1#opm1" action="true">
+      <KOLink id="sv1#area7#miu3#kln5" name="KOFlow2" to="sv1#area7#page15#mssu9">
+        <LinkParameter id="sv1#area7#miu3#kln5#par35" name="Login Error_Shown Messages" target="sv1#area7#page15#mssu9.shownMessages" sourceValue="Login Error"/>
+      </KOLink>
+      <OKLink id="sv1#area7#miu3#oln6" name="OKFlow2" to="sv1#area7#page17" automaticCoupling="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>
