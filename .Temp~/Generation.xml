@@ -1,2 +1,61 @@
 
-<Generation/>
+<Generation>
+  <Exception target="Project" rootXPath="/WebProject">
+    <Title>Error</Title>
+    <Reason>Invalid or missing database for entity User[User]</Reason>
+    <Cause>com.webratio.commons.transform.EvaluateException: Invalid or missing database for entity User[User]
+	[occurred at line 21 in HibernateMapping.template]
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluate(GroovyTemplate.java:173)
+	at com.webratio.commons.transform.groovy.Script2$ExecuteTemplateClosure.doCall(Script2.java:124)
+	at com.webratio.commons.transform.groovy.Script2$ExecuteTemplateClosure.doCall(Script2.java:108)
+	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:86)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:230)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:912)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:927)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com_webratio_generator_webapp_7_2_14_201608091213_DataModel_Main_template_1479874721921.run(com_webratio_generator_webapp_7_2_14_201608091213_DataModel_Main_template_1479874721921:75)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluateObject(GroovyTemplate.java:255)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluateScript(GroovyTemplate.java:192)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluate(GroovyTemplate.java:167)
+	at com.webratio.commons.transform.groovy.Script2$ExecuteTemplateClosure.doCall(Script2.java:124)
+	at com.webratio.commons.transform.groovy.Script2$ExecuteTemplateClosure.doCall(Script2.java:108)
+	at com.webratio.commons.transform.groovy.Script2$ExecuteTemplateClosure.doCall(Script2.java:104)
+	at sun.reflect.GeneratedMethodAccessor120.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:86)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:230)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:912)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:927)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com_webratio_generator_webapp_7_2_14_201608091213_WebApp_Main_template_1479874732017.run(com_webratio_generator_webapp_7_2_14_201608091213_WebApp_Main_template_1479874732017:117)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluateObject(GroovyTemplate.java:255)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluateScript(GroovyTemplate.java:192)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluate(GroovyTemplate.java:167)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluate(GroovyTemplate.java:149)
+	at com.webratio.ide.deploy.core.jobs.GenerateWebAppJob.doRun(GenerateWebAppJob.java:179)
+	at com.webratio.ide.deploy.core.jobs.AbstractDeploymentJob.runExternal(AbstractDeploymentJob.java:84)
+	at com.webratio.commons.mf.jobs.ExternalJob.run(ExternalJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.Exception: Invalid or missing database for entity User[User]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.codehaus.groovy.runtime.MetaClassHelper.doConstructorInvoke(MetaClassHelper.java:535)
+	at groovy.lang.MetaClassImpl.doConstructorInvoke(MetaClassImpl.java:2356)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1255)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1185)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeConstructorOf(InvokerHelper.java:809)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeNewN(ScriptBytecodeAdapter.java:230)
+	at com_webratio_generator_webapp_7_2_14_201608091213_DataModel_HibernateMapping_template_1479874720778.run(com_webratio_generator_webapp_7_2_14_201608091213_DataModel_HibernateMapping_template_1479874720778:20)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluateObject(GroovyTemplate.java:255)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluateScript(GroovyTemplate.java:192)
+	at com.webratio.commons.transform.groovy.GroovyTemplate.evaluate(GroovyTemplate.java:167)
+	... 34 more
+</Cause>    <TemplateEvaluateProblem>rO0ABXNyADVjb20ud2VicmF0aW8uY29tbW9ucy50cmFuc2Zvcm0uZ3Jvb3Z5LkV2YWx1YXRlUHJvYmxlbQYGMLxUabEkAgADTAALZGVzY3JpcHRpb250ABJMamF2YS9sYW5nL1N0cmluZztMAARmaWxldAAOTGphdmEvaW8vRmlsZTtMAAhsb2NhdGlvbnQAJUxjb20vd2VicmF0aW8vY29tbW9ucy90cmFuc2Zvcm0vU3Bhbjt4cHQAMUludmFsaWQgb3IgbWlzc2luZyBkYXRhYmFzZSBmb3IgZW50aXR5IFVzZXJbVXNlcl1zcgAMamF2YS5pby5GaWxlBC2kRQ4N5P8DAAFMAARwYXRocQB+AAF4cHQAkkM6XFdlYlJhdGlvXFdlYlJhdGlvIFBsYXRmb3JtIDcuMi4xNC54NjRiaXRcV2ViUmF0aW9ccGx1Z2luc1xjb20ud2VicmF0aW8uZ2VuZXJhdG9yLndlYmFwcF83LjIuMTQuMjAxNjA4MDkxMjEzXERhdGFNb2RlbFxIaWJlcm5hdGVNYXBwaW5nLnRlbXBsYXRldwIAXHhzcgAjY29tLndlYnJhdGlvLmNvbW1vbnMudHJhbnNmb3JtLlNwYW6UFc4/W/Q3cAIAAkwAA2VuZHQAKUxjb20vd2VicmF0aW8vY29tbW9ucy90cmFuc2Zvcm0vUG9zaXRpb247TAAFc3RhcnRxAH4ACnhwc3IAJ2NvbS53ZWJyYXRpby5jb21tb25zLnRyYW5zZm9ybS5Qb3NpdGlvbr1k3WQq/gM0AgADSQAGY29sdW1uSQAFY291bnRJAARsaW5leHAAAAAA/////wAAABRzcQB+AAwAAAAA/////wAAABQ=</TemplateEvaluateProblem>
+  </Exception>
+</Generation>

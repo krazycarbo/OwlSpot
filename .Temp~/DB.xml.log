@@ -1,175 +1,52 @@
-[20 Nov 2016 17:49:18] Building database metadata model
-[20 Nov 2016 17:49:18] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@40103754, includeTables=true, username=freeapp57, outputLogPath=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\DB.xml.log, readIndexes=null, driverClass=com.mysql.jdbc.Driver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.MySQLMetaDataProvider, outputPath=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:mysql://52.19.51.26:3306/freeapp57, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=false, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=53174}
-[20 Nov 2016 17:49:18] URL: jdbc:mysql://52.19.51.26:3306/freeapp57
-[20 Nov 2016 17:49:18] Product name: MySQL
-[20 Nov 2016 17:49:18] Product version: 5.6.32
-[20 Nov 2016 17:49:18] Driver name: MySQL Connector Java
-[20 Nov 2016 17:49:18] Driver version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
-[20 Nov 2016 17:49:18] Driver major version: 5
-[20 Nov 2016 17:49:18] Driver minor version: 1
-[20 Nov 2016 17:49:18] Identifier quote string: 1
-[20 Nov 2016 17:49:18] Retrieving schemas
-[20 Nov 2016 17:49:18] Retrieving [TABLE, VIEW, SYNONYM] for schema ''
-[20 Nov 2016 17:49:18]   Found 'Courses' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'about_you' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'accounts' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'activities' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'group' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'group_2' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'group_module' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'group_module_2' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'home' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'module' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'module_2' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'problems' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'travel' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'user' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'user_2' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'user_group' [type = TABLE]
-[20 Nov 2016 17:49:18]   Found 'user_group_2' [type = TABLE]
-[20 Nov 2016 17:49:18] Retrieving columns for 'Courses' [type = TABLE]
-[20 Nov 2016 17:49:19]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: courseID [type = VARCHAR][SQL/XOPEN type = 12][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: courseName [type = VARCHAR][SQL/XOPEN type = 12][size = 50][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: grade [type = VARCHAR][SQL/XOPEN type = 12][size = 2][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: description [type = VARCHAR][SQL/XOPEN type = 12][size = 200][dec. digits = 0]
-[20 Nov 2016 17:49:19] Retrieving primary keys for 'Courses' [type = TABLE]
-[20 Nov 2016 17:49:19] Retrieving columns for 'about_you' [type = TABLE]
-[20 Nov 2016 17:49:19]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: hometown [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: major [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: degree [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:19]   Found column: name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:19] Retrieving primary keys for 'about_you' [type = TABLE]
-[20 Nov 2016 17:49:19]   Found primary key column: oid
-[20 Nov 2016 17:49:19] Retrieving columns for 'accounts' [type = TABLE]
-[20 Nov 2016 17:49:20]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: last_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: first_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20] Retrieving primary keys for 'accounts' [type = TABLE]
-[20 Nov 2016 17:49:20]   Found primary key column: oid
-[20 Nov 2016 17:49:20] Retrieving columns for 'activities' [type = TABLE]
-[20 Nov 2016 17:49:20]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: first_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: image [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: description [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: activity_type [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: date [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: z_number [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: last_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20] Retrieving primary keys for 'activities' [type = TABLE]
-[20 Nov 2016 17:49:20]   Found primary key column: oid
-[20 Nov 2016 17:49:20] Retrieving columns for 'group' [type = TABLE]
-[20 Nov 2016 17:49:20]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: groupname [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:20]   Found column: module_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:20] Retrieving primary keys for 'group' [type = TABLE]
-[20 Nov 2016 17:49:20]   Found primary key column: oid
-[20 Nov 2016 17:49:20] Retrieving columns for 'group_2' [type = TABLE]
-[20 Nov 2016 17:49:21]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:21]   Found column: groupname [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:21]   Found column: module_2_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:21] Retrieving primary keys for 'group_2' [type = TABLE]
-[20 Nov 2016 17:49:21]   Found primary key column: oid
-[20 Nov 2016 17:49:21] Retrieving columns for 'group_module' [type = TABLE]
-[20 Nov 2016 17:49:21]   Found column: group_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:21]   Found column: module_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:21] Retrieving primary keys for 'group_module' [type = TABLE]
-[20 Nov 2016 17:49:21]   Found primary key column: group_oid
-[20 Nov 2016 17:49:21]   Found primary key column: module_oid
-[20 Nov 2016 17:49:21] Retrieving columns for 'group_module_2' [type = TABLE]
-[20 Nov 2016 17:49:22]   Found column: group_2_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:22]   Found column: module_2_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:22] Retrieving primary keys for 'group_module_2' [type = TABLE]
-[20 Nov 2016 17:49:22]   Found primary key column: group_2_oid
-[20 Nov 2016 17:49:22]   Found primary key column: module_2_oid
-[20 Nov 2016 17:49:22] Retrieving columns for 'home' [type = TABLE]
-[20 Nov 2016 17:49:22]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:22]   Found column: description [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:22]   Found column: profile [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:22]   Found column: profileblob [type = LONGBLOB][SQL/XOPEN type = -4][size = 2147483647][dec. digits = 0]
-[20 Nov 2016 17:49:22] Retrieving primary keys for 'home' [type = TABLE]
-[20 Nov 2016 17:49:22]   Found primary key column: oid
-[20 Nov 2016 17:49:22] Retrieving columns for 'module' [type = TABLE]
-[20 Nov 2016 17:49:22]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:22]   Found column: moduleid [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:22]   Found column: modulename [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:22] Retrieving primary keys for 'module' [type = TABLE]
-[20 Nov 2016 17:49:22]   Found primary key column: oid
-[20 Nov 2016 17:49:22] Retrieving columns for 'module_2' [type = TABLE]
-[20 Nov 2016 17:49:23]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: moduleid [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: modulename [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23] Retrieving primary keys for 'module_2' [type = TABLE]
-[20 Nov 2016 17:49:23]   Found primary key column: oid
-[20 Nov 2016 17:49:23] Retrieving columns for 'problems' [type = TABLE]
-[20 Nov 2016 17:49:23]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: image [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: description [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: incident_type [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: date [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: z_number [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: last_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23]   Found column: first_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:23] Retrieving primary keys for 'problems' [type = TABLE]
-[20 Nov 2016 17:49:23]   Found primary key column: oid
-[20 Nov 2016 17:49:23] Retrieving columns for 'travel' [type = TABLE]
-[20 Nov 2016 17:49:24]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: city [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: country [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: year [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: picture [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: pictureblob [type = LONGBLOB][SQL/XOPEN type = -4][size = 2147483647][dec. digits = 0]
-[20 Nov 2016 17:49:24] Retrieving primary keys for 'travel' [type = TABLE]
-[20 Nov 2016 17:49:24]   Found primary key column: oid
-[20 Nov 2016 17:49:24] Retrieving columns for 'user' [type = TABLE]
-[20 Nov 2016 17:49:24]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: username [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: group_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:24] Retrieving primary keys for 'user' [type = TABLE]
-[20 Nov 2016 17:49:24]   Found primary key column: oid
-[20 Nov 2016 17:49:24] Retrieving columns for 'user_2' [type = TABLE]
-[20 Nov 2016 17:49:24]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: username [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[20 Nov 2016 17:49:24]   Found column: group_2_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:24] Retrieving primary keys for 'user_2' [type = TABLE]
-[20 Nov 2016 17:49:24]   Found primary key column: oid
-[20 Nov 2016 17:49:24] Retrieving columns for 'user_group' [type = TABLE]
-[20 Nov 2016 17:49:25]   Found column: user_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:25]   Found column: group_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:25] Retrieving primary keys for 'user_group' [type = TABLE]
-[20 Nov 2016 17:49:25]   Found primary key column: user_oid
-[20 Nov 2016 17:49:25]   Found primary key column: group_oid
-[20 Nov 2016 17:49:25] Retrieving columns for 'user_group_2' [type = TABLE]
-[20 Nov 2016 17:49:25]   Found column: user_2_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:25]   Found column: group_2_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[20 Nov 2016 17:49:25] Retrieving primary keys for 'user_group_2' [type = TABLE]
-[20 Nov 2016 17:49:25]   Found primary key column: user_2_oid
-[20 Nov 2016 17:49:25]   Found primary key column: group_2_oid
-[20 Nov 2016 17:49:25] Database metadata retrieved (7162 ms)
-[20 Nov 2016 17:49:25] Retrieving auto-increment columns for 'Courses' [type = TABLE]
-[20 Nov 2016 17:49:25] Retrieving auto-increment columns for 'about_you' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'accounts' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'activities' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'group' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'group_2' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'group_module' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'group_module_2' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'home' [type = TABLE]
-[20 Nov 2016 17:49:26] Retrieving auto-increment columns for 'module' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'module_2' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'problems' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'travel' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'user' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'user_2' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'user_group' [type = TABLE]
-[20 Nov 2016 17:49:27] Retrieving auto-increment columns for 'user_group_2' [type = TABLE]
-[20 Nov 2016 17:49:28] Database connection closed
+[22 Nov 2016 23:05:41] Building database metadata model
+[22 Nov 2016 23:05:41] Properties: {partialRefresh=true, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@65642eab, includeTables=true, username=OwlLogin, outputLogPath=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\DB.xml.log, readIndexes=null, driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.SQLServerMetaDataProvider, outputPath=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\MainOwlSpot\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:sqlserver://173.162.75.166:1433;databaseName=OwlSpot, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=false, retrieveAllNames=false, tablesToRefresh=dbo.PROBLEMS, eventSocketPort=51829}
+[22 Nov 2016 23:05:41] URL: jdbc:sqlserver://173.162.75.166:1433;authenticationScheme=nativeAuthentication;xopenStates=false;sendTimeAsDatetime=true;trustServerCertificate=false;sendStringParametersAsUnicode=true;selectMethod=direct;responseBuffering=adaptive;packetSize=8000;multiSubnetFailover=false;loginTimeout=15;lockTimeout=-1;lastUpdateCount=true;encrypt=false;disableStatementPooling=true;databaseName=OwlSpot;applicationName=Microsoft JDBC Driver for SQL Server;applicationIntent=readwrite;
+[22 Nov 2016 23:05:41] Product name: Microsoft SQL Server
+[22 Nov 2016 23:05:41] Product version: 11.00.6020
+[22 Nov 2016 23:05:41] Driver name: Microsoft JDBC Driver 4.0 for SQL Server
+[22 Nov 2016 23:05:41] Driver version: 4.0.4621.201
+[22 Nov 2016 23:05:41] Driver major version: 4
+[22 Nov 2016 23:05:41] Driver minor version: 0
+[22 Nov 2016 23:05:41] Identifier quote string: 0
+[22 Nov 2016 23:05:41] Retrieving schemas
+[22 Nov 2016 23:05:41]   Found schema: db_accessadmin
+[22 Nov 2016 23:05:41]   Found schema: db_backupoperator
+[22 Nov 2016 23:05:41]   Found schema: db_datareader
+[22 Nov 2016 23:05:41]   Found schema: db_datawriter
+[22 Nov 2016 23:05:41]   Found schema: db_ddladmin
+[22 Nov 2016 23:05:41]   Found schema: db_denydatareader
+[22 Nov 2016 23:05:41]   Found schema: db_denydatawriter
+[22 Nov 2016 23:05:41]   Found schema: db_owner
+[22 Nov 2016 23:05:41]   Found schema: db_securityadmin
+[22 Nov 2016 23:05:41]   Found schema: dbo
+[22 Nov 2016 23:05:41]   Found schema: guest
+[22 Nov 2016 23:05:41]   Found schema: INFORMATION_SCHEMA
+[22 Nov 2016 23:05:41]   Found schema: sys
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_accessadmin'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_backupoperator'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_datareader'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_datawriter'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_ddladmin'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_denydatareader'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_denydatawriter'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_owner'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'db_securityadmin'
+[22 Nov 2016 23:05:41] Retrieving [TABLE, VIEW, SYNONYM] for schema 'dbo'
+[22 Nov 2016 23:05:42]   Found 'dbo.PROBLEMS' [type = TABLE]
+[22 Nov 2016 23:05:42] Retrieving [TABLE, VIEW, SYNONYM] for schema 'guest'
+[22 Nov 2016 23:05:42] Retrieving [TABLE, VIEW, SYNONYM] for schema 'INFORMATION_SCHEMA'
+[22 Nov 2016 23:05:42] Retrieving [TABLE, VIEW, SYNONYM] for schema 'sys'
+[22 Nov 2016 23:05:42] Retrieving columns for 'dbo.PROBLEMS' [type = TABLE]
+[22 Nov 2016 23:05:42]   Found column: OID [type = int][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: IMAGE [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: DESCRIPTION [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: INCIDENT_TYPE [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: DATE [type = date][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: Z_NUMBER [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: EMAIL [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: LAST_NAME [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42]   Found column: FIRST_NAME [type = varchar][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[22 Nov 2016 23:05:42] Retrieving primary keys for 'dbo.PROBLEMS' [type = TABLE]
+[22 Nov 2016 23:05:42]   Found primary key column: OID
+[22 Nov 2016 23:05:42] Database metadata retrieved (1464 ms)
+[22 Nov 2016 23:05:42] Database connection closed

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Warnings> 
+  <Warning xpath="id('sv1#area7#cru5#ln19')" rootXPath="id('sv1')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="Flow8"> 
+    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'Flow8'</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="automaticCoupling" value="">Remove the 'Automatic Coupling' property</Resolution> 
+  </Warning>  
+  <Warning xpath="id('sv1#miu4')" rootXPath="id('sv1')" error="false" label="sv1#miu4" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'sv1#miu4'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area2#cru2')" rootXPath="id('sv1')" error="false" label="Post Problem" key="NO_OUTGOING_OK_LINKS"> 
+    <Message>No outgoing OK flow(s) for the operation 'Post Problem'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area2#cru2')" rootXPath="id('sv1')" error="false" label="Post Problem" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Post Problem'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area4#cru3')" rootXPath="id('sv1')" error="false" label="Post Activity" key="NO_OUTGOING_OK_LINKS"> 
+    <Message>No outgoing OK flow(s) for the operation 'Post Activity'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area4#cru3')" rootXPath="id('sv1')" error="false" label="Post Activity" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Post Activity'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area7#cru5')" rootXPath="id('sv1')" error="false" label="Register Account" key="NO_OUTGOING_OK_LINKS"> 
+    <Message>No outgoing OK flow(s) for the operation 'Register Account'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area7#cru5')" rootXPath="id('sv1')" error="false" label="Register Account" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Register Account'</Message> 
+  </Warning>  
+  <Warning error="false" xpath="id('sv1#area3#page6#inu1')" rootXPath="id('sv1')" key="UNSPECIFIED_SORTING_ATTRIBUTE" label="Summary of Problems"> 
+    <Message>Sorting attribute are unspecified for the component 'Summary of Problems'</Message> 
+  </Warning>  
+  <Warning error="false" xpath="id('sv1#area5#page10#inu2')" rootXPath="id('sv1')" key="UNSPECIFIED_SORTING_ATTRIBUTE" label="List of Activities"> 
+    <Message>Sorting attribute are unspecified for the component 'List of Activities'</Message> 
+  </Warning> 
+</Warnings>

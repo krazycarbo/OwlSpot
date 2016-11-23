@@ -2,7 +2,7 @@
   <OperationUnits>
     <CreateUnit gr:x="380" gr:y="10" id="sv1#area2#cru2" name="Post Problem" entity="ent2">
       <Link id="sv1#area2#cru2#ln4" name="View Problem Summary" to="sv1#area3#page6#inu1" type="transport" validate="true">
-        <LinkParameter id="sv1#area2#cru2#ln4#par16" name="oid_current oid" source="ent2#att6Array" target="sv1#area3#page6#inu1.current.ent2#att6"/>
+        <LinkParameter id="sv1#area2#cru2#ln4#par65" name="oid_current oid" source="ent2#att6Array" target="sv1#area3#page6#inu1.current.ent2#att6"/>
       </Link>
       <Link id="sv1#area2#cru2#ln6" name="Submission TY" to="sv1#area2#page5" automaticCoupling="true" type="transport" validate="true"/>
     </CreateUnit>

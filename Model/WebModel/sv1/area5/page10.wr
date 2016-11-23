@@ -30,13 +30,13 @@
       <layout:Cell colspan="6">
         <layout:Unit unitId="sv1#area5#page10#dau1">
           <layout:Attribute attribute="ent3#att16"/>
-          <layout:Attribute attribute="ent3#att17"/>
-          <layout:Attribute attribute="ent3#att18"/>
-          <layout:Attribute attribute="ent3#att19"/>
-          <layout:Attribute attribute="ent3#att20"/>
-          <layout:Attribute attribute="ent3#att21"/>
-          <layout:Attribute attribute="ent3#att22"/>
           <layout:Attribute attribute="ent3#att23"/>
+          <layout:Attribute attribute="ent3#att22"/>
+          <layout:Attribute attribute="ent3#att21"/>
+          <layout:Attribute attribute="ent3#att20"/>
+          <layout:Attribute attribute="ent3#att19"/>
+          <layout:Attribute attribute="ent3#att18"/>
+          <layout:Attribute attribute="ent3#att17"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>

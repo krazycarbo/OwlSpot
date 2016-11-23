@@ -46,34 +46,35 @@
       <db:JoinColumn attribute="moduleOID" name="module_2_oid"/>
     </RelationshipRole2>
   </Relationship>
-  <Entity gr:x="105" gr:y="25" id="ent1" name="Accounts" duration="persistent" attributeOrder="ent1#att1 ent1#att2 ent1#att3 ent1#att4 ent1#att5" db:database="db1" db:table="accounts">
-    <Attribute id="ent1#att1" key="true" name="oid" type="integer" db:column="oid"/>
-    <Attribute id="ent1#att5" name="Password" type="password" db:column="password"/>
-    <Attribute id="ent1#att4" name="Email" type="string" db:column="email"/>
-    <Attribute id="ent1#att3" name="Last Name" type="string" db:column="last_name"/>
-    <Attribute id="ent1#att2" name="First Name" type="string" db:column="first_name"/>
+  <Entity gr:x="375" gr:y="15" id="ent2" name="Problems" duration="persistent" attributeOrder="ent2#att6 ent2#att7 ent2#att8 ent2#att9 ent2#att10 ent2#att11 ent2#att12 ent2#att13 ent2#att14" db:database="db2" db:table="PROBLEMS">
+    <Attribute id="ent2#att6" key="true" name="oid" type="integer" db:column="OID"/>
+    <Attribute id="ent2#att14" name="Image" type="blob" db:column="IMAGE"/>
+    <Attribute id="ent2#att13" name="Description" type="string" db:column="DESCRIPTION"/>
+    <Attribute id="ent2#att12" name="Incident Type" type="string" db:column="INCIDENT_TYPE"/>
+    <Attribute id="ent2#att11" name="Date" type="date" db:column="DATE"/>
+    <Attribute id="ent2#att10" name="Z-Number" type="string" db:column="Z_NUMBER"/>
+    <Attribute id="ent2#att9" name="Email" type="string" db:column="EMAIL"/>
+    <Attribute id="ent2#att8" name="Last Name" type="string" db:column="LAST_NAME"/>
+    <Attribute id="ent2#att7" name="First Name" type="string" db:column="FIRST_NAME"/>
   </Entity>
-  <Entity gr:x="350" gr:y="5" id="ent2" name="Problems" duration="persistent" attributeOrder="ent2#att6 ent2#att7 ent2#att8 ent2#att9 ent2#att10 ent2#att11 ent2#att12 ent2#att13 ent2#att14" db:database="db1" db:table="problems">
-    <Attribute id="ent2#att6" key="true" name="oid" type="integer" db:column="oid"/>
-    <Attribute id="ent2#att14" name="Image" type="blob" db:column="image"/>
-    <Attribute id="ent2#att13" name="Description" type="string" db:column="description"/>
-    <Attribute id="ent2#att12" name="Incident Type" type="string" db:column="incident_type"/>
-    <Attribute id="ent2#att11" name="Date" type="date" db:column="date"/>
-    <Attribute id="ent2#att10" name="Z-Number" type="string" db:column="z_number"/>
-    <Attribute id="ent2#att9" name="Email" type="string" db:column="email"/>
-    <Attribute id="ent2#att8" name="Last Name" type="string" db:column="last_name"/>
-    <Attribute id="ent2#att7" name="First Name" type="string" db:column="first_name"/>
+  <Entity gr:x="595" gr:y="5" id="ent3" name="Activities" duration="persistent" attributeOrder="ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19 ent3#att20 ent3#att21 ent3#att22 ent3#att23" db:database="db2" db:table="ACTIVITIES">
+    <Attribute id="ent3#att15" key="true" name="oid" type="integer" db:column="OID"/>
+    <Attribute id="ent3#att16" name="First Name" type="string" key="false" db:column="FIRST_NAME"/>
+    <Attribute id="ent3#att23" name="Image" type="blob" db:column="IMAGE"/>
+    <Attribute id="ent3#att22" name="Description" type="string" db:column="DESCRIPTION"/>
+    <Attribute id="ent3#att21" name="Activity Type" type="string" db:column="ACTIVITY_TYPE"/>
+    <Attribute id="ent3#att20" name="Date" type="date" db:column="DATE"/>
+    <Attribute id="ent3#att19" name="Z-Number" type="string" db:column="Z_NUMBER"/>
+    <Attribute id="ent3#att18" name="Email" type="string" db:column="EMAIL"/>
+    <Attribute id="ent3#att17" name="Last Name" type="string" db:column="LAST_NAME"/>
   </Entity>
-  <db:Database id="db1" name="OwlSpotDB" type="MySQL" username="freeapp57" password="MkYzNjI3OUI=" cryptedPassword="true" url="jdbc:mysql://52.19.51.26:3306/freeapp57"/>
-  <Entity gr:x="595" gr:y="5" id="ent3" name="Activities" duration="persistent" attributeOrder="ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19 ent3#att20 ent3#att21 ent3#att22 ent3#att23" db:database="db1" db:table="activities">
-    <Attribute id="ent3#att15" key="true" name="oid" type="integer" db:column="oid"/>
-    <Attribute id="ent3#att16" name="First Name" type="string" key="false" db:column="first_name"/>
-    <Attribute id="ent3#att23" name="Image" type="blob" db:column="image"/>
-    <Attribute id="ent3#att22" name="Description" type="string" db:column="description"/>
-    <Attribute id="ent3#att21" name="Activity Type" type="string" db:column="activity_type"/>
-    <Attribute id="ent3#att20" name="Date" type="date" db:column="date"/>
-    <Attribute id="ent3#att19" name="Z-Number" type="string" db:column="z_number"/>
-    <Attribute id="ent3#att18" name="Email" type="string" db:column="email"/>
-    <Attribute id="ent3#att17" name="Last Name" type="string" db:column="last_name"/>
+  <db:Database id="db2" name="CarlosDB" type="Microsoft SQL Server 2012" url="jdbc:sqlserver://173.162.75.166:1433;databaseName=OwlSpot" username="OwlLogin" password="T3dsMTIzNDU2" cryptedPassword="true" schema="dbo"/>
+  <Entity id="ent414" name="Accounts" db:database="db2" duration="persistent" db:table="ACCOUNTS" gr:x="130" gr:y="30">
+    <Attribute id="ent414#att4585" name="oid" db:column="OID" type="integer" key="true"/>
+    <Attribute id="ent414#att4586" name="password" db:column="PASSWORD" type="string" key="false"/>
+    <Attribute id="ent414#att4587" name="email" db:column="EMAIL" type="string" key="false"/>
+    <Attribute id="ent414#att4588" name="lastName" db:column="LAST_NAME" type="string" key="false"/>
+    <Attribute id="ent414#att4589" name="firstName" db:column="FIRST_NAME" type="string" key="false"/>
+    <Attribute id="ent414#att4590" name="admin" db:column="ADMIN" type="integer" key="false"/>
   </Entity>
 </DataModel>
